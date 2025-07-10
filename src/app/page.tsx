@@ -4,12 +4,10 @@ import PlansSection from "../components/PlansSection";
 import TestimonialsSection from "../components/TestimonialsSection";
 import FAQSection from "../components/FAQSection";
 import ContactSection from "../components/ContactSection";
-import NavigationDots from "../components/NavigationDots";
 
 export default function Home() {
   return (
     <div className="relative h-screen w-full overflow-y-scroll scroll-smooth snap-y snap-mandatory">
-      <NavigationDots sections={["Inicio", "Características", "Planes", "Testimonios", "FAQ", "Contacto"]} />
       <section id="hero" className="snap-start h-screen flex items-center justify-center">
         <HeroSection />
       </section>
